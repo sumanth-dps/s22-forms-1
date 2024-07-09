@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="firstname">Full name :</label>
+            <input id="firstname" type="text">
+        </div>
+
+
+        <div>
+            <label for="stateselect">State :</label>
+            <select id="stateselect">
+                <optgroup label="Northern India">
+                    <option>Select State</option>
+                    <option>jammu and kashmir</option>
+                    <option>himachal pradesh</option>
+                    <option>uttar pradesh</option>
+                    <option>uttarakhad</option>
+                    <option>delhi</option>
+                </optgroup>
+                <optgroup label="Souththern India">
+                    <option>andhra pradesh</option>
+                    <option>telangana</option>
+                    <option>karnataka</option>
+                    <option>tamilnadu</option>
+                    <option>kerala</option>
+                    <option>goa</option>
+                </optgroup>
+                <optgroup label="Western India">
+                    <option>maharashtra</option>
+                    <option>odisha</option>
+                    <option>pubjab</option>
+                    <option>rajistan</option>
+                    <option>haryana</option>
+                </optgroup>
+                <optgroup label="Eastern India">
+                    <option>assam</option>
+                    <option>arunachal pradesh</option>
+                    <option>bhutan</option>
+                    <option>west bengal</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label>Address :</label>
+            <textarea></textarea>
+        </div>
+
+        <div>
+            <label for="gender">Gender :</label>
+            <input id="gender" list="gender1">
+            <datalist id="gender1">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Prefer not to say</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="birthday">Birthday :</label>
+            <input type="date" id="birthday">
+        </div>
+        <div>
+            <label for="mail">Mail Id :</label>
+            <input id="mail" type="email">
+        </div>
+        <div>
+            <label for="collegeName">College Name :</label>
+            <input id="collegeName" type="text">
+        </div>
+        <div>
+            <label for="course">Course Name :</label>
+            <input id="course" type="text">
+        </div>
+        <div>
+            <label for="stream">Stream Name :</label>
+            <input id="stream" type="text">
+        </div>
+        <div>
+            <label for="passed">Passed out year:</label>
+            <input id="passed" type="number" min="1950" max="2028">
+        </div>
+        <div>
+            <label for="Regnumber">Register Number :</label>
+            <input id="Regnumber" type="text">
+        </div>
+
+        <div>
+            <label for="sem1">Sem I</label>
+            <input id="sem1" type="number" min="1" max="10">
+        </div>
+        <div>
+            <label for="sem2">Sem II</label>
+            <input id="sem2" type="number" min="1" max="10">
+        </div>
+        <div>
+            <label for="sem3">Sem III</label>
+            <input id="sem3" type="number" min="1" max="10">
+        </div>
+        <div>
+            <label for="sem4">Sem IV</label>
+            <input id="sem4" type="number" min="1" max="10">
+        </div>
+        <div>
+            <label for="sem5">Sem V</label>
+            <input id="sem5" type="number" min="1" max="10">
+        </div>
+        <div>
+            <label for="sem6">Sem VI</label>
+            <input id="sem6" type="number" min="1" max="10">
+        </div>
+        <div>
+            <label for="sem7">Sem VII</label>
+            <input id="sem7" type="number" min="1" max="10">
+        </div>
+        <div>
+            <label for="sem8">Sem VIII</label>
+            <input id="sem8" type="number" min="1" max="10">
+        </div>
+        <div>
+            <fieldset>
+                <legend>Marks</legend>
+                <label for="cgpa">CGPA :</label>
+                <input id="cgpa" type="number" min="1" max="10"><br><br>
+                <label for="percent">Percentage :</label>
+                <input id="percent" type="number" min="0" max="100"><br>
+                <button type="reset">Clear</button>
+            </fieldset>
+        </div>
+        <div>
+            <input type="checkbox">
+            <label>I do hereby declare that all the above information given by me are true to the best of my knowledge
+                and belief.</label>
+
+        </div>
+
+        <button type="reset">Clear</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
